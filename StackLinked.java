@@ -62,6 +62,10 @@ public class StackLinked {
 		s1.display();
 		System.out.println("Peek");
 		System.out.println(s1.peek());
+		System.out.println("Check empty");
+		s1.pop();
+		s1.pop();
+		s1.pop();
 
 	}
 

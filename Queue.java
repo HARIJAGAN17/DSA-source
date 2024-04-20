@@ -34,7 +34,7 @@ public class Queue {
 		front = front.next;
 		
 		if(front==null)
-			rear = null;
+			rear = null; // Incase of last element is dequeued
 		
 		return temp;
 	}
