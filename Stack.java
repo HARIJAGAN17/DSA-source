@@ -16,13 +16,13 @@ public class Stack {
 	public void push(int d)
 	{
 		if(top==size-1)
-			throw new IndexOutOfBoundsException("is Full");
+			throw new IndexOutOfBoundsException("stack is Full");
 		arr[++top] =d;
 	}
 	public int pop()
 	{
 		if(isEmpty())
-			throw new IndexOutOfBoundsException("is empty");
+			throw new IndexOutOfBoundsException("stack is empty");
 	  return arr[top--];
 	}
 	public int peek()
