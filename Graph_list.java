@@ -3,6 +3,7 @@ package ust;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 public class Graph_list {
 	
@@ -55,6 +56,31 @@ public class Graph_list {
 			}
 		}
 	}
+		public void dfs(int v) {
+		
+		Stack<Integer> ss = new Stack<>();
+		
+		boolean visited[] = new boolean[gr.size()];
+		
+		ss.add(v);
+		visited[v] =true;
+		
+		while(ss.size()!=0) {
+			
+			int vertex = ss.pop();
+			System.out.print(vertex+" ");
+			for(int i=0;i<gr.get(vertex).size();i++) {
+				
+				int av = gr.get(vertex).get(i);
+				
+				if(visited[av]==false) {
+					ss.add(av);
+					visited[av]=true;
+				}
+				
+			}
+		}
+	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -66,6 +92,8 @@ public class Graph_list {
 		gg.addElements(2, 4);
 		gg.addElements(3, 4);
 		gg.bfs(0);
+		System.out.println();
+		gg.dfs(0);
 		
 	}
 
