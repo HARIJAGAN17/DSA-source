@@ -1,4 +1,4 @@
-package ust;
+package ust.Trees;
 
 public class BinaryTree {
 	

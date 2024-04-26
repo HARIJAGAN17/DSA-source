@@ -1,4 +1,6 @@
-package ust;
+package ust.Graphs;
+
+import ust.Stack;
 
 class FloodFill {
 

@@ -1,6 +1,8 @@
-package ust;
+package ust.Graphs;
 
 import java.util.*;
+
+import ust.Stack;
 class Pair{
     int first;
     int second;

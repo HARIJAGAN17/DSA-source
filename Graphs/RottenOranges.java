@@ -1,6 +1,8 @@
-package ust;
+package ust.Graphs;
 
 import java.util.LinkedList;
+
+import ust.Queue;
 
 class Pair{
 

@@ -1,4 +1,4 @@
-package ust;
+package ust.Graphs;
 
 import java.util.ArrayList;
 import java.util.Stack;
