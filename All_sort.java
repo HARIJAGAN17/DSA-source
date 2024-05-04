@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class All_sort {
 	
-	public static void BubbleSort(int arr[])
+	public static void bubbleSort(int arr[])
 	{
 		for(int i=1;i<arr.length;i++)
 		{
@@ -26,7 +26,7 @@ public class All_sort {
 		System.out.println(Arrays.toString(arr));
 		
 	}
-	public static void SelectionSort(int arr[])
+	public static void selectionSort(int arr[])
 	{
 		for(int i=0;i<arr.length-1;i++)
 		{
@@ -42,7 +42,7 @@ public class All_sort {
 		}
 		System.out.println(Arrays.toString(arr));
 	}
-	public static void InsertionSort(int arr[])
+	public static void insertionSort(int arr[])
 	{
 		for(int i=1;i<arr.length;i++)
 		{
@@ -60,7 +60,7 @@ public class All_sort {
 		}
 		System.out.println(Arrays.toString(arr));
 	}
-	public static int[] MergeSort(int arr[])
+	public static int[] mergeSort(int arr[])
 	{
 		if(arr.length==1)
 			return arr;
@@ -98,7 +98,7 @@ public class All_sort {
 		return joined;
 		
 	}
-	public static void QuickSort(int[] arr,int low,int high)
+	public static void quickSort(int[] arr,int low,int high)
 	{
 		if(low>=high)
 			return;
