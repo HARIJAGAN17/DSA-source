@@ -9,10 +9,7 @@ public class Graph_numberOfProvinces {
 	int v;
 	ArrayList<ArrayList<Integer>> li;
 	
-	
-	
-	
-	
+
 	public Graph_numberOfProvinces(int v) {
 		this.v = v;
 		li = new ArrayList<>();
@@ -67,9 +64,6 @@ public class Graph_numberOfProvinces {
 		}
 		
 	}
-
-
-
 
 
 	public static void main(String[] args) {
