@@ -80,6 +80,7 @@ public class CircularLinked<T> {
 				last = null;
 				return;
 			}
+			else{
 			Node temp = last.next;
 			
 			while(temp.next!=last) {
@@ -87,10 +88,12 @@ public class CircularLinked<T> {
 			}
 			temp.next = last.next;
 			last = temp;
+			}
 		}
 	}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		
 		CircularLinked<String> cl = new CircularLinked<>();
 		cl.insert_begin("Hari");
 		cl.insert_end("Jagan");
