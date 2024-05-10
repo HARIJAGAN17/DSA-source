@@ -50,8 +50,7 @@ public class StackLinked {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	
 		StackLinked s1 = new StackLinked();
 		s1.push(1);
 		s1.push(2);
@@ -60,8 +59,6 @@ public class StackLinked {
 		s1.pop();
 		System.out.println("After popping");
 		s1.display();
-		System.out.println("Peek");
-		System.out.println(s1.peek());
 		System.out.println("Check empty");
 		s1.pop();
 		s1.pop();
